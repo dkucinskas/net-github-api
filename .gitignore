@@ -1,12 +1,27 @@
-bin
-obj
-Obj
-TestResults
-test-results
-*.csproj.user
+# Build and Object Folders
+bin/
+obj/
+Obj/
+
+#User Specific Files
+*.user
 *.suo
-*.cache
-*~
-*.swp
 *.userprefs
 *.pidb
+
+
+#Resource Caches
+_ReSharper.*
+*.sln.cache
+
+#Nuget
+packages
+
+#vim
+*~
+*.swp
+
+#unit tests
+TestResults
+test-results
+

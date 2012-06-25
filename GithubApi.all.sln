@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubApi", "src\GithubApi\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test\Test.csproj", "{F930A60D-56B8-4834-85F8-737849A6BE50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{58D3BEA0-4977-46E9-BCB0-2AB9331D3068}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,9 @@ Global
 		{F930A60D-56B8-4834-85F8-737849A6BE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F930A60D-56B8-4834-85F8-737849A6BE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F930A60D-56B8-4834-85F8-737849A6BE50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = test\Test\Test.csproj
